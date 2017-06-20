@@ -13,6 +13,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,10 +23,6 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "ne6to si random"
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
