@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FoodTracker
 //
-//  Created by Svilen on 6/17/17.
-//  Copyright © 2017 Svilen. All rights reserved.
+//  Created by Jane Appleseed on 10/17/16.
+//  Copyright © 2016 Apple Inc. All rights reserved.
 //
 
 import UIKit

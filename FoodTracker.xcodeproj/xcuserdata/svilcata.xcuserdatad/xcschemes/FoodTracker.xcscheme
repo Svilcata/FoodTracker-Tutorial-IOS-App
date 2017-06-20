@@ -37,6 +37,11 @@
                BlueprintName = "FoodTrackerTests"
                ReferencedContainer = "container:FoodTracker.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "FoodTrackerTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">
