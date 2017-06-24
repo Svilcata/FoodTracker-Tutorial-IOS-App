@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 
 class Meal:NSObject,NSCoding {
@@ -52,6 +53,7 @@ class Meal:NSObject,NSCoding {
     required convenience init?(coder aDecoder:NSCoder) {
         guard let name = aDecoder.decodeObject(forKey:PropertyKey.name)as? String else {
             print("babinata")
+            os_log("unable to decode the name for a meal object", log:OSLog.default,type:.debug)
             return nil
         }
         let photo = aDecoder.decodeObject(forKey: PropertyKey.photo) as? UIImage

@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodTracker/Meal.swift"
-            timestampString = "519770357.220847"
+            timestampString = "519981253.101928"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "init(coder:)"
             landmarkType = "7">
          </BreakpointContent>
